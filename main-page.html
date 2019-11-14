@@ -1,84 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Charity Comparison Website</title>
-    <link href="bootstrap.css" rel="stylesheet">
-  <link href="web_design.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>Charity</title>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Charity Comparison Site</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#buzz">About</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Categories
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Charity Comparison Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                    aria-label="Search"> <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact Us</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-
-    <div class="container">
-      <h1>Compare Which Charity Fits You</h1>
-      <div class="col-sm-4">
-      <img class="img-fluid" src="images/sandwich.png">
-    </div>
-        <div class="row">
-          <div class="col-sm-6 mx-auto">
-            <form role="form">
-      </form>
-    </div>
-    </div>
-    </div>
-
-    <div class="diseases">
-      <h2>Diseases</h2>
-      <figure><img src="cancer.jpg" alt="A picture of a duck" width="400px"/></figure>
-    </div>
-
-    <div class="animals">
-      <h2>Animals</h2>
-      <figure><img src="animals.jpg" alt="A picture of a duck" width="400px"/></figure>
-    </div>
-
-    <div class="children">
-      <h2>Children</h2>
-      <figure><img src="orphans.jpg" alt="A picture of a duck" width="400px"/></figure>
-    </div>
-
-    <div class="homeless">
-      <h2>The Homeless</h2>
-      <figure><img src="homeless.jpg" alt="A picture of a duck" width="400px"/></figure>
-    </div>
-
-    <script   src="http://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    </nav>
+    <main>
+        <div class="hidden" id="home">
+            <h1>Compare Which Charity Fits You</h1>
+            <img class="charity" src="./img/charity.jpg" alt="charity">
+        </div>
+        <div class="hidden" id="about">
+            <div class="diseases">
+                <h2>Diseases</h2>
+                <figure>
+                    <a href="./html/diseases.html">
+                        <img src="./img/cancer.jpg" alt="A picture of a duck" width="400px" />
+                    </a>
+                </figure>
+            </div>
+            <div class="animals">
+                <h2>Animals</h2>
+                <figure><img src="./img/animals.jpg" alt="A picture of a duck" width="400px" /></figure>
+            </div>
+            <div class="children">
+                <h2>Children</h2>
+                <figure><img src="./img/orphans.jpg" alt="A picture of a duck" width="400px" /></figure>
+            </div>
+            <div class="homeless">
+                <h2>The Homeless</h2>
+                <figure><img src="./img/homeless.jpg" alt="A picture of a duck" width="400px" /></figure>
+            </div>
+        </div>
+    </main>
 </body>
-
 </html>
