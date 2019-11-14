@@ -1,0 +1,52 @@
+nav {
+    position: sticky !important;
+    top: 0;
+}
+
+main {
+    padding: 40px 0;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hidden::before {
+    content: '';
+    display: block;
+    height: 50px;
+}
+
+.charity {
+    height: 500px;
+    border-radius: 50px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+img {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 400px;
+    border-radius: 360px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+    cursor: pointer;
+	width: 450px;
+}
