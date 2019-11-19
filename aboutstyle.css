@@ -1,9 +1,22 @@
 body {
   color: rgb(100, 0, 50);
+  position: relative;
+}
+body::before {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url('background.jpg');
   background-size: cover;
   background-attachment: fixed;
-}
+  opacity: 0.5;
+  filter: blur(2px);
+  /* transform: scale(1.05); */
+}/* body::before: to change the opacity of the background picture only and not the text on top*/
 
 p {
   background-color: rgba(255, 255, 255, 0.3);
@@ -13,4 +26,8 @@ p {
 footer {
   background-color: rgba(255, 255, 255, 0.3);
   color: black;
+
+}
+.goals {
+  position: relative
 }
