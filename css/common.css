@@ -1,6 +1,8 @@
+
 nav {
     position: sticky !important;
     top: 0;
+    background-size: cover;
 }
 
 main {
@@ -14,7 +16,7 @@ main {
 .hidden::before {
     content: '';
     display: block;
-    height: 50px;
+    height: 180px;
 }
 
 .charity {
