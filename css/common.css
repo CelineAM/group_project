@@ -24,8 +24,15 @@ main {
     border-radius: 50px;
 }
 
-h1, h2 {
-    color: #ffffff;
+h1{
+  color: #f8f9fa;
+  text-align: center;
+  font-size: 4em;
+  margin: 50px 0;
+
+}
+h2 {
+    color: #343a40;
     text-align: center;
     font-size: 4em;
     margin: 50px 0;
@@ -36,13 +43,20 @@ img {
     padding: 20px;
     margin: 0 auto;
 }
+.jumbotron{
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  color:white;
+}
 
 figure {
     margin: 0;
 }
 
 figure img {
-    width: 400px;
+    width: 650px;
     border-radius: 360px;
 	height: auto;
 	-webkit-transition: .3s ease-in-out;
@@ -51,4 +65,19 @@ figure img {
 figure:hover img {
     cursor: pointer;
 	width: 450px;
+}
+.btn-Twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+.btn-facebook{
+  background: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+.btn-pinterest{
+  background: #b62f26;
+  border-color: #b62f26;
+  color:white;
 }
