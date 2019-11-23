@@ -1,8 +1,3 @@
-// $("#buttonsend").click(function(event) {
-//   var text = $("#input").val();
-//   $("#list").append('<li>' + text + '</li>');
-// }
-// window.alert("Message sent");
 function SendingMessage() {
   window.alert("Message sent, thank you.");
 }
