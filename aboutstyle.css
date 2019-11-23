@@ -1,48 +1,23 @@
-
+/* whole page */
 body {
   color: black;
   /* position: relative; */
   font-family: 'Comic Sans MS', arial;
-  padding: 5%;
-  background-image: url('background.jpg');
+  /* padding-left: 5%;
+  padding-right: 10%; */
+  padding: 10% 12% 10% 7%;
+  background-image: url('transparentbackground.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 p {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: black;
   width: 90%;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   font-size: 1em;
-}
-
-ol {
-  padding: 0;
-  margin-bottom: 10%;
-  margin-top: 5%;
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
-}
-li {
-  margin: 0 2%;
-  background-color: white;
-  transition: 0.6s ease;
-}
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
-}
-footer {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: gray;
-
-}
-.goals {
-  position: relative;
+  text-align: justify;
 }
 
 h1{
@@ -50,47 +25,183 @@ h1{
   font-size: 4em;
   text-align: center;
   margin-bottom: 10%;
+}
 
+h2 {
+  font-style: italic;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-shadow: 2px 2px 3px #FFF;
+}
+/* Description section */
+.goals {
+  position: relative;
+}
+p.firstparagraph {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 15px;
+  color: black;
+}
+ol {
+  padding: 0;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-size: 1.5em;
+  display: table;
+  justify-content: space-around;
+}
+li {
+  display: table-cell;
+  text-align: center;
+  margin: 10%;
+  padding: 1em;
+  background-color: rgba(102,148,255,0.7);
+  transition: 0.8s ease;
+  border-radius: 100%;
+  font-size: 80%;
+}
+@media only screen and (max-width: 600px) {
+  li {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+li:hover {
+  background-color: #1747B9;
+  color: white;
+  transition: 0.8s ease;
 }
 
 
-div {
-  min-height: 100vh;
-  width: 90%;
-}
+/* Profile section */
 div.founders {
-  background-color: rgba(0,0,0,0.5);
-  color: rgb(255,255,255);
+  background-color: rgba(105,128,181,0.7);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  border-radius: 15px;
+}
+.row {
+  max-width: 95%;
+  color: rgb(255,255,255);
+}
+p.speech {
+  color: white;
+}
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+.img-profile {
+  border-radius: 100%;
+  max-width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  margin-bottom: 2%;
+}
+.blockquote {
+  background-color: rgb(105,128,181);
+  border-radius: 15px;
+}
+footer {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: left;
+  padding: 4%;
+
 }
 
+
+
+/* contact Section */
 div.ContactUsForm {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+.emailaddressrow,.messsagerow {
+  width: 90%;
 
-h2 {
-  font-style: italic;
-  font-size: 2em;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-img {
-display: flex;
-padding: 20px;
-margin: 0 auto;
-border-radius: 130px;
 }
 .input-group-prepend {
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  word-break: break-all;
+
 }
-.basic-addon1 {
-  width: 50px;
-  height: 50px;
+.input-group-text {
+  width: 100%;
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: left;
+  word-break: break-all;
+  background-color: rgba(105,128,181,0.5);
+  color: black;
+}
+.heightclass {
+  height: 20rem;
+}
+div.buttonsend {
+  margin-top: 1%;
+  width: 45%;
+}
+button {
+  background-color: rgb(105,128,181);
+  border-radius: 3px;
+  border-color: rgb(105,128,181);
+  color: white;
+  width: 100%;
+}
+
+/* Social media buttons */
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+div.socialbuttons {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 12%;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+
+}
+.btn {
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 10%;
+
+  /* display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  /* color: black;*/
+  /* align-items: flex-end; */
+
+
 }
