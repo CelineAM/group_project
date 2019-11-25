@@ -81,3 +81,6 @@ figure:hover img {
   border-color: #b62f26;
   color:white;
 }
+.search_button {
+  align-items: center;
+}
