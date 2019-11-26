@@ -17,11 +17,11 @@ img {
 }
 
 figure img {
-	width: 400px;
+	width: 450px;
 	height: auto;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 figure:hover img {
-	width: 450px;
+	width: 500px;
 }
