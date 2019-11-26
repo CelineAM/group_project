@@ -1,0 +1,25 @@
+main {
+    display: flex;
+}
+
+.content {
+    margin: 50px auto;
+    width: 900px;
+    padding: 30px;
+    background-color: #f7f5f5;
+}
+
+img {
+    width: 600px;
+    float: left;
+    border-radius: 10px;
+    margin: 0 20px 10px 0;
+}
+
+.text {
+    font-size: 25px;
+}
+
+p {
+    text-indent: 40px;
+}

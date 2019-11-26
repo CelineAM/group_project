@@ -1,0 +1,154 @@
+
+nav {
+    position: sticky !important;
+    top: 0;
+    background-size: cover;
+}
+
+/* main {
+       padding: 0 40px;
+} */
+
+h1{
+  color: #f8f9fa;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  text-align: center;
+  padding: 5%;
+  font-size: 4em;
+  align-items: center;
+}
+h2 {
+    color: #343a40;
+    text-align: center;
+    font-size: 4em;
+    margin: 50px 0;
+}
+.jumbotron{
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  color:white;
+}
+
+#register {
+  margin-left: 2%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+#register:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+#signin {
+  margin-left: 2%;
+  color: #007bff;
+  background-color: #fff;
+  border-color: #007bff;
+}
+#signin:hover {
+  color: #000099;
+  background-color: #fff;
+  border-color: #0062cc;
+}
+
+.btn-outline-success {
+  background-color: #25B049;
+  color: white;
+  border-color: none;
+}
+
+
+
+.blabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tableBubbles {
+  width: 100%;
+  display: table;
+  justify-content: space-around;
+}
+
+.children .diseases .homeless .animals {
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+}
+img {
+   /* display: flex; */
+   padding: 20px;
+   margin: 0;
+   align-items: center;
+   border-radius: 360px;
+
+}
+img:hover {
+  /* cursor: pointer; */
+  width: 110%;
+  /* transition: 5s ease; not working... */
+}
+
+
+/* .hidden::before {
+    content: '';
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 180px;
+
+} */
+/* #home {
+  margin: 0;
+} */
+
+/* .charity {
+    height: 500px;
+    border-radius: 50px;
+} I don't think it's doing anything */
+
+
+
+#mission {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 10%;
+  font-family: Arial;
+  color: white;
+  background-color: #A7A6A6;
+  border-radius: 15px;
+  padding: 3%;
+  font-style: italic;
+  text-align: justify;
+}
+.text-muted {
+  margin:20px 0px;
+}
+
+
+/* social buttons */
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
