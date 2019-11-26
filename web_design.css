@@ -25,3 +25,36 @@ figure img {
 figure:hover img {
 	width: 500px;
 }
+
+/* social buttons */
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+div.socialbuttons {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 12%;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+}
+.btn {
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 10%;
+}
