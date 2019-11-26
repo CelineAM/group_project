@@ -1,3 +1,4 @@
+// Sign in and Register pop ups
 function SignInPopUp() {
   window.prompt("Your username", "Type here")
   window.prompt("Your password", "Type here")
@@ -10,6 +11,16 @@ function RegisterPopUp() {
   window.alert("Welcome!")
 }
 
+// Social buttons
+function TwitterLink() {
+  window.open("https://twitter.com/");
+}
+function FacebookLink() {
+  window.open("https://facebook.com/");
+}
+function PinterestLink() {
+  window.open("https://pinterest.co.uk/");
+}
 
   // var NewOrExisting;
   // if (NewOrExisting)
